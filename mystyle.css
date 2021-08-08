@@ -1,0 +1,57 @@
+body
+{
+	background-color: black;
+	
+}
+
+h1
+{
+  font-family: Calibri; 
+  font-size: 50pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:white;
+  text-align: center; 
+  text-decoration: underline
+}
+
+table
+{
+  font-family: Calibri; 
+  color:black; 
+  font-size: 12pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: white; 
+  border-collapse: collapse; 
+  border: 2px;
+}
+table.inner
+{
+  border: 0px;
+}
+
+button
+{
+  background-color: black;
+  color:white;
+  border-radius: 2px;
+  padding:0;
+  border:none;
+  width: 250px;
+  height: 50px;
+  font:bold;
+}
+button:hover 
+{
+	background-color: white;
+	
+	color:black;
+	transform: translateY(-4px)
+	
+}
+button:focus
+{
+	background-color: white;
+}

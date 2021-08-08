@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<title>BANK</title>
+
+</head>
+ 
+<body>
+<h1 align="center">BANK</h1>
+
+<a href="account.html"><button><b>My Accounts</b></button></a>
+<a href="ft.html"><button style="background-color:gray; color:black"><b>Fund Transfer</b></button></a>
+<a href="mr.html"><button><b>Mobile Recharge</b></button></a>
+<a href="contact.html"><button><b>Contact Us</b></button></a>
+<hr>
+<table align="center" cellpadding = "10">
+ 
+ 
+<tr>
+	<td>Transfer Fund</td>
+	<td>
+		Inter-Bank 
+		<input type="radio" name="tf_type" value="Inter" />
+		Intra-Bank
+		<input type="radio" name="tf_type" value="Intra" />
+	</td>
+</tr>
+ 
+<tr>
+	<td>Applicant's Account Number</td>
+	<td>
+		<input type="text" name="aa_no" maxlength="50" />
+	</td>
+</tr>
+
+<tr>
+	<td>Beneficiary's Account Number</td>
+	<td>
+		<input type="text" name="ba_no" maxlength="50" />
+	</td>
+</tr>
+	
+<tr>
+	<td>Account Type of Applicant</td>
+	<td>
+		Savings 
+		<input type="radio" name="ac_type" value="Savings" />
+		Current 
+		<input type="radio" name="ac_type" value="Current" />
+	</td>
+</tr>
+ 
+ <tr>
+	<td>Account Type of Beneficiary</td>
+	<td>
+		Savings 
+		<input type="radio" name="b_type" value="Savings" />
+		Current 
+		<input type="radio" name="b_type" value="Current" />
+	</td>
+</tr>
+<tr>
+	<td>Amount(in INR)</td>
+	<td>
+		<input type="text" name="amt" maxlength="50" />
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		<button style="background-color:white;color:black;border:2px solid black;" type="button">Click to Proceed</button>
+	</td>
+</tr>
+</table>
+
+ 
+</body>
+</html>
