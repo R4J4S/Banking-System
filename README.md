@@ -1,5 +1,11 @@
+
 # Banking-System
 Banking System website made using HTML & CSS
+
+## Preview
+![SampleGIF](SamplePages/SampleGIF.gif)
+
+
 
 ## Account Page
 ![Account Page](SamplePages/account_page.png)
